@@ -4,13 +4,22 @@
       <nav class="uk-navbar home-navbar">
         <a href="#" class="uk-navbar-brand"><img src="logo.png" alt="" /></a>
         <ul class="uk-navbar-nav desde-tablet">
-          <li><a href="#" class="anchor-item-nav-home"> Home </a></li>
-          <li><a href="#" class="anchor-item-nav-home"> Blog </a></li>
-          <li><a href="#" class="anchor-item-nav-home"> Regístrate </a></li>
-          <li><a href="#" class="anchor-item-nav-home"> Ingresa </a></li>
+          <li><a href="#" class="anchor-item-nav-home js-event-anchor-nav"> <i class="uk-icon-home"></i> Home </a></li>
+          <li><a href="#" class="anchor-item-nav-home js-event-anchor-nav"> <i class="uk-icon-file-text"></i> Blog </a></li>
+          <li><a href="#" class="anchor-item-nav-home js-event-anchor-nav"> <i class="uk-icon-users"></i> Regístrate </a></li>
+          <li><a href="#" class="anchor-item-nav-home js-event-anchor-nav"> <i class="uk-icon-sign-in"></i> Ingresa </a></li>
         </ul> <!-- uk-navbar-nav -->
-        <a href="" class="uk-navbar-toggle uk-navbar-flip hasta-tablet"></a>
+        <a href="#left-side-navbar" data-uk-offcanvas class="uk-navbar-toggle uk-navbar-flip hasta-tablet"></a>
       </nav> <!-- uk-navbar -->
+
+      <div id="left-side-navbar" class="uk-offcanvas">
+        <div class="uk-navbar-nav uk-offcanvas-bar">
+          <div class="content-movil-anchor-nav js-event-anchor-nav"><a href="#" class="anchor-item-nav-home"> <i class="uk-icon-home"></i> Home </a></div>
+          <div class="content-movil-anchor-nav js-event-anchor-nav"><a href="#" class="anchor-item-nav-home"> <i class="uk-icon-file-text"></i> Blog </a></div>
+          <div class="content-movil-anchor-nav js-event-anchor-nav"><a href="#" class="anchor-item-nav-home"> <i class="uk-icon-users"></i> Regístrate </a></div>
+          <div class="content-movil-anchor-nav js-event-anchor-nav"><a href="#" class="anchor-item-nav-home"> <i class="uk-icon-sign-in"></i> Ingresa </a></div>
+        </div> <!-- uk-offcanvas-bar -->
+      </div> <!-- uk-offcanvas -->
     </div> <!-- ed-item -->
   </section> <!-- ed-container -->
 </template>
