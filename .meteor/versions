@@ -42,9 +42,9 @@ launch-screen@1.0.12
 livedata@1.0.18
 localstorage@1.0.11
 logging@1.1.14
+lukeacl:uikit@0.0.3
 meteor@1.2.16
 meteor-base@1.0.4
-metrophobe:materialize@0.97.7
 minifier-css@1.2.13
 minifier-js@1.2.13
 minimongo@1.0.17
@@ -73,6 +73,7 @@ spacebars-compiler@1.0.12
 srp@1.0.9
 standard-minifier-css@1.1.8
 standard-minifier-js@1.1.8
+stylus@2.512.5
 templating@1.1.14
 templating-tools@1.0.4
 tracker@1.1.0
