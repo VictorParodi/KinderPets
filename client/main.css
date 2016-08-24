@@ -11,11 +11,17 @@
 }*/
 
 body {
+  color: #191923;
   font-family: 'Roboto', sans-serif;
 }
 
 .container-total {
   max-width: 100%;
+}
+
+.item-extra-side-padding {
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 .item-no-padding {
@@ -27,7 +33,7 @@ body {
 }
 
 .item-dark-backg {
-  background-color: rgba(25,25,35, .7);
+  background-color: rgba(25,25,35, .8);
   color: white;
 }
 
@@ -36,7 +42,7 @@ body {
 /* ========== home header ========== */
 .home-header {
   background-attachment: fixed;
-  background-image: url('fondo6.jpg');
+  background-image: url('f3.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -66,6 +72,16 @@ body {
   margin-top: 2em;
 }
 
+.uk-navbar-nav.desde-tablet a {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em !important;
+}
+
+  .uk-navbar-nav.desde-tablet i {
+    font-size: 1.2em !important;
+    display: none;
+  }
+
 .anchor-item-nav-home {
   /*border: 1px dotted white;*/
   color: white !important;
@@ -89,8 +105,23 @@ body {
   cursor: pointer !important;
 }
 
+.message-home-header {
+  color: white;
+  /*font-family: 'Chewy', sans-serif;*/
+  font-family: 'Concert One', cursive;
+  font-family: 'Baloo Tamma', cursive;
+  font-size: 1.7em;
+  text-align: center;
+  text-shadow: 0px 3px 3px #191923;
+}
+
+h2.message-home-header {
+  font-size: 3em;
+  margin-top: 6em;
+}
+
 .uk-offcanvas-bar {
-  background-color: #0E79B2;
+  background-color: #191923;
   padding: 0 0 0 0;
 }
 
@@ -107,10 +138,11 @@ body {
 
 /* ========== home information ========== */
 .home-information {
-  margin-top: 9em; /* deseable mantener estas dos declaraciones iguales, pero separadas */
+  margin-top: 5em; /* deseable mantener estas declaraciones iguales, pero separadas */
 }
 
 .title-home-information {
+  font-family: 'Oswald', sans-serif;
   margin-bottom: 4em;
 }
 
@@ -130,7 +162,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-top: 9em; /* deseable mantener estas dos declaraciones iguales, pero separadas */
+  margin-top: 5em; /* deseable mantener estas declaraciones iguales, pero separadas */
 }
 
 .home-services .ed-item {
@@ -139,6 +171,7 @@ body {
 }
 
 .title-home-services {
+  font-family: 'Oswald', sans-serif;
   color: white;
 }
 
@@ -146,25 +179,147 @@ body {
   width: 7em;
 }
 
+.subtitle-home-services {
+  color: white;
+}
+
+
+/* ========== home bottom ========== */
+.home-bottom {
+  background-color: rgba(14,121,178, 0);
+  margin-top: 5em;
+  /*padding-bottom: 2em;
+  padding-top: 2em;*/
+}
+
+.container-icon-home-bottom {
+  text-align: center;
+}
+
+.icon-home-bottom {
+  /*width: 35em;*/
+}
+
+.title-home-bottom, .text-home-bottom {
+  color: white;
+  color: #191923;
+}
+
+.title-home-bottom {
+  font-family: 'Oswald', sans-serif;
+  font-size: 2em;
+}
+
+.text-home-bottom {
+  font-size: 1.1em;
+}
+
+.container-link-home-bottom {
+  margin-top: 2em;
+  text-align: center;
+}
+
+  .link-home-bottom {
+    width: 8em;
+  }
+
+    .text-link-home-bottom {
+      color: #191923;
+    }
+
+
+/* ========== Footer ========== */
+.home-footer {
+  background-color: #191923;
+  color: white;
+  margin-top: 5em;
+  padding-bottom: 1em;
+  padding-top: 1em;
+}
+
+.icon-home-footer {
+  width: 5em;
+}
+
+
+@media screen and (min-width: 1024px){
+  .title-home-bottom {
+    margin-top: 1em;
+  }
+
+  .text-home-bottom {
+    margin-top: 2em;
+  }
+}
+
+
 
 @media screen and (max-width: 350px){
   .home-header {
     background-attachment: scroll;
-    background-image: url('fondo7.jpg');
+    background-image: url('f3.jpg');
+  }
+
+  .message-home-header {
+    font-size: 1.5em;
+  }
+
+  h2.message-home-header {
+    font-size: 2.2em;
+    margin-top: 7em;
   }
 
   .home-services {
     background-attachment: scroll;
+    background-image: url('fondo9A.jpg');
+  }
+
+  .icon-home-bottom {
+    width: 16em;
+  }
+
+  .title-home-bottom {
+    font-size: 1.5em;
+    text-align: center;
+  }
+
+  .text-home-bottom {
+    font-size: 1.1em;
+    text-align: center;
   }
 }
 
 @media screen and (min-width: 350px) and (max-width: 760px){
   .home-header {
     background-attachment: scroll;
-    background-image: url('fondo8.jpg');
+    background-image: url('f3.jpg');
+  }
+
+  .message-home-header {
+    font-size: 1.2em;
+  }
+
+  h2.message-home-header {
+    font-size: 2em;
+    margin-top: 8em;
   }
 
   .home-services {
     background-attachment: scroll;
+    background-image: url('fondo9A.jpg');
+  }
+
+  .icon-home-bottom {
+    width: 16em;
+  }
+
+  .title-home-bottom {
+    font-size: 1.5em;
+    text-align: center;
+  }
+
+  .text-home-bottom {
+    font-size: 1.1em;
+    text-align: center;
   }
 }
