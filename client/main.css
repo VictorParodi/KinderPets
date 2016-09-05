@@ -323,3 +323,19 @@ h2.message-home-header {
     text-align: center;
   }
 }
+
+
+/* ============================== Signup styles ============================== */
+.uk-form {
+  /**/
+}
+
+.uk-form-row {
+  margin-bottom: 1em;
+}
+
+.logoForm {
+  display: block;
+  margin: auto;
+  width: 60%;
+}
